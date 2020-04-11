@@ -1,0 +1,22 @@
+{
+  "books": [
+    {
+      "author": "J.R.R. Tolkien",
+      "title": "The Lord of the Rings"
+    },
+    {
+      "author": "J.R.R. Tolkien",
+      "title": "The Hobbit"
+    }
+  ],
+  "borrowers": [
+    {
+      "first": "John",
+      "last": "Doe"
+    },
+    {
+      "first": "Jim",
+      "last": "Bob"
+    }
+  ]
+}
