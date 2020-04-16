@@ -1,24 +1,24 @@
 {
   "books": [
     {
-      "key": 1,
+      "id": 1,
       "author": "J.R.R. Tolkien",
       "title": "The Lord of the Rings"
     },
     {
-      "key": 2,
+      "id": 2,
       "author": "J.R.R. Tolkien",
       "title": "The Hobbit"
     }
   ],
   "borrowers": [
     {
-      "key": 1,
+      "id": 1,
       "first": "John",
       "last": "Doe"
     },
     {
-      "key": 2,
+      "id": 2,
       "first": "Jim",
       "last": "Bob"
     }
