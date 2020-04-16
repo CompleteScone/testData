@@ -1,12 +1,12 @@
 {
   "books": [
     {
-      "key": 1,
+      "id": 1,
       "author": "J.R.R. Tolkien",
       "title": "The Lord of the Rings"
     },
     {
-      "key": 1,
+      "id": 2,
       "author": "J.R.R. Tolkien",
       "title": "The Hobbit"
     }
