@@ -1,0 +1,29 @@
+{
+  "name": "testdata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "deploy": "cd build && node generateTestData.js",
+    "start": "npm run build && npm run deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CompleteScone/testData.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CompleteScone/testData/issues"
+  },
+  "homepage": "https://github.com/CompleteScone/testData#readme",
+  "devDependencies": {
+    "@types/node": "~13.13.2",
+    "typescript": "~3.8.3"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
+}
