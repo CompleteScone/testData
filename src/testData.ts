@@ -1,4 +1,4 @@
-import { Library, Shelf, Book } from '../../EntertainmentLibrary/types';
+import { Library, Shelf, Book, Person } from '../../EntertainmentLibrary/types';
 
 const libraries:Library[] = [
     {
@@ -57,31 +57,41 @@ const books:Book[] = [
         id: 1,
         title: "The Fellowship of the Ring",
         author: "JRR Tolkien",
-        isbn: 1234,
+        isbn: 9781234567891,
         description: "Some Hobbits set off on a big adventure to destroy a ring",
         isOwned: true,
         haveRead: true,
         copies: [
-            {}
+            {
+                borrowedBy: 1,
+                borrowedDate: new Date("2020-04-25")
+            },
+            {
+                borrowedBy: 2,
+                borrowedDate: new Date("2020-03-20")
+            }
         ]
     },
     {
         id: 2,
         title: "The Two Towers",
         author: "JRR Tolkien",
-        isbn: 1234,
+        isbn: 9781234567892,
         description: "Some Hobbits get taken to Isengard",
         isOwned: true,
         haveRead: true,
         copies: [
-            {}
+            {
+                borrowedBy: 1,
+                borrowedDate: new Date("2020-04-27")
+            }
         ]
     },
     {
         id: 3,
         title: "The Return of the King",
         author: "JRR Tolkien",
-        isbn: 1234,
+        isbn: 9781234567893,
         description: "Some Hobbits destroy a ring",
         isOwned: true,
         haveRead: true,
@@ -91,8 +101,26 @@ const books:Book[] = [
     }
 ]
 
+const people:Person[] = [
+    {
+        id: 1,
+        name: "John Doe",
+        bookIDs: [
+            1,2
+        ]
+    },
+    {
+        id: 2,
+        name: "Jane Doe",
+        bookIDs: [
+            1
+        ]
+    }
+]
+
 export const testData = {
     libraries,
     shelves,
-    books
+    books,
+    people
 }
