@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "deploy": "cd build && node generateTestData.js",
+    "deploy": "node ./build/testData/src/generateTestData.js",
     "start": "npm run build && npm run deploy"
   },
   "repository": {
