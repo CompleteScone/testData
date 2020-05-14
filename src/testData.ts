@@ -1,4 +1,4 @@
-import { Library, Shelf, Book, Person } from '../../EntertainmentLibrary/types';
+import type { Library, Shelf, Book, Person } from 'entertainmentlibrary/types';
 
 const libraries:Library[] = [
     {
